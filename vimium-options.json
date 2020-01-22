@@ -1,0 +1,34 @@
+{
+  "settingsVersion": "1.64.6",
+  "exclusionRules": [
+    {
+      "pattern": "https?://www.youtube.com/*",
+      "passKeys": "fclm"
+    },
+    {
+      "pattern": "https?://docs.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https?://calendar.google.com/*",
+      "passKeys": "?/"
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "unmap <a-m>\nunmap <a-p>\nunmap <c-e>\nunmap <c-y>\nunmap gT\nunmap gt\nunmap ge\nunmap gE\nunmap zH\nunmap zL\nunmap >>\nunmap <<\nunmap gs\nunmap <a-f>\n\n# === Colemak ===\nmapkey n j\nmapkey N J\nmapkey e k\nmapkey E K\nmapkey i l\nmapkey I L\nmapkey k n\nmapkey K N\nmapkey l i\nmapkey L I\nmapkey j e\nmapkey J E\n\n\n# === Quick browse ===\nmap gm createTab https://mail.google.com/mail/u/0/h/\nmap gM createTab https://mail.google.com/mail/u/0/\nmap gv createTab https://portal.vamk.fi/my/\nmap gh Vomnibar.activate keyword=hub\nmap s Vomnibar.activate keyword=google\nmap w Vomnibar.activate keyword=wiki\n\n\n# === Mapping here ===\nmap ' LinkHints.activateMode\nmap K previousTab\nmap J nextTab\nmap h scrollToLeft\nmap l scrollToRight\nmap : passNextKey count=999999\nmap ; passNextKey\nmap - passNextKey normal\nmap DD closeOtherTabs\nmap <a-x> closeOtherTabs\nmap Dh closeTabsOnLeft\nmap Dl closeTabsOnRight\nmap F LinkHints.activateModeToOpenInNewForegroundTab\nmap gc LinkHints.activateModeToOpenIncognito\nmap a Vomnibar.activateEditUrl\nmap A Vomnibar.activateEditUrlInNewTab\nmap M toggleMuteTab\nmap gp togglePinTab\nmap < moveTabLeft\nmap <a-,> moveTabLeft count=99\nmap > moveTabRight\nmap <a-.> moveTabRight count=99\nmap , goPrevious\nmap . goNext\nmap q visitPreviousTab\nmap gt Vomnibar.activateTabSelection\nmap j scrollPageDown\nmap k scrollPageUp\nmap d scrollFullPageDown\nmap u scrollFullPageUp\n\n# Lower-case letters are taken to be global marks and vice versa\nmap m Marks.activateCreateMode swap\nmap ` Marks.activateGotoMode swap\n\n# regex to match gmail modern version but not the plain html version\n# https?://mail.google.com/mail/u/[0-9]/[^h]*",
+  "linkHintCharacters": "tsradpfwvcxzbgq",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>,Go to next week",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": true,
+  "searchEngines": "# Frequently used\na: https://www.amazon.com/s?k=%s Amazon\nade: https://www.amazon.de/s?k=%s Amazon\naw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki\nc: https://chocolatey.org/packages?q=%s Chocolatey packages\ncc: https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s Creative Commons\nd: https://duckduckgo.com/?q=%s DuckDuckGo\nes: https://explainshell.com/explain?cmd=%s ExplainShell.com\nfg: http://fitgirl-repacks.site/?s=%s FitGirl repacks\nge: https://genius.com/search?q=%s Genius lyrics\ngi: https://www.google.com/search?tbm=isch&q=%s Google Images\nmap: https://www.google.com/maps?q=%s Google Maps\nhi: https://hinta.fi/haku?q=%s Hinta.fi\nhip: https://hintaopas.fi/search?search=%s Hintaopas prices search\nimdb: https://www.imdb.com/find?s=all&q=%s IMDB\nlib: https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def LibGen Ebooks\nman: https://www.mankier.com/?q=%s Mankier\nso: https://stackoverflow.com/search?q=%s StackOverflow\nss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com\nsu: https://superuser.com/search?q=%s SuperUser\ntf: http://www.taifile.net/search.php?q=%s Taifile.net\ntr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator\nud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary\ny: https://www.youtube.com/results?search_query=%s YouTube\nrac: https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 Assassin Creed Reddit search\nraco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 Assassin Creed Odyssey Reddit search\ncs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site\npy: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Past year\ndict: http://dictionary.com/browse/%s Dictionary\nthe: http://thesaurus.com/browse/%s Therasus synonyms\ncache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache\nm: https://mail.google.com/mail/u/0/#search/%s Gmail search\nwhois: http://whois.domaintools.com/%s Whois\nphrase: https://www.google.com/search?q=”%s” Google Phrase Search\nstore: https://chrome.google.com/webstore/search/%s Google Chrome Web Store\nflickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search\narchive: https://web.archive.org/web/*/%s Internet Archive\nisup: http://www.isup.me/%s Check website Is Up\nfb: https://www.facebook.com/search/top/?q=%s Facebook\nr: https://www.reddit.com/search?q=%s Reddit\nt: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter\nepub: https://www.epub.vn/search#%s Epub.vn ebooks\n\n# Maybe useful?\nb: https://www.bing.com/search?setmkt=en-GB&q=%s Bing\ne: https://www.ebay.com/sch/?_nkw=%s eBay\nhn: https://www.hnsearch.com/search#request/submissions&q=%s&start=0 HackerNews\nhub: https://github.com/search?q=%s GitHub\nqw: https://www.qwant.com/?q=%s&t=all Qwant search engine\ntrello: https://trello.com/search?q=%s Trello\nwa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha\nyh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo\n\n# Assigned to hotkeys\nwiki: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia\ngoogle: https://www.google.com/search?q=%s Google\n\n# Find your way from your home to places using Google Maps\nhome: https://www.google.com/maps/dir/home/%some: https://www.google.com/maps/dir/home/%s https?://mail.google.com/mail/u/[0-9]/[^h]*",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}

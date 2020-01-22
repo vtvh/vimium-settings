@@ -1,0 +1,73 @@
+unmap <a-m>
+unmap <a-p>
+unmap <c-e>
+unmap <c-y>
+unmap gT
+unmap gt
+unmap ge
+unmap gE
+unmap zH
+unmap zL
+unmap >>
+unmap <<
+unmap gs
+unmap <a-f>
+
+# === Colemak ===
+mapkey n j
+mapkey N J
+mapkey e k
+mapkey E K
+mapkey i l
+mapkey I L
+mapkey k n
+mapkey K N
+mapkey l i
+mapkey L I
+mapkey j e
+mapkey J E
+
+
+# === Quick browse ===
+map gm createTab https://mail.google.com/mail/u/0/h/
+map gM createTab https://mail.google.com/mail/u/0/
+map gv createTab https://portal.vamk.fi/my/
+map gh Vomnibar.activate keyword=hub
+map s Vomnibar.activate keyword=google
+map w Vomnibar.activate keyword=wiki
+
+
+# === Mapping here ===
+map ' LinkHints.activateMode
+map K previousTab
+map J nextTab
+map zh scrollToLeft
+map zl scrollToRight
+map : passNextKey count=999999
+map ; passNextKey
+map - passNextKey normal
+map DD closeOtherTabs
+map <a-x> closeOtherTabs
+map Dh closeTabsOnLeft
+map Dl closeTabsOnRight
+map F LinkHints.activateModeToOpenInNewForegroundTab
+map gc LinkHints.activateModeToOpenIncognito
+map a Vomnibar.activateEditUrl
+map A Vomnibar.activateEditUrlInNewTab
+map M toggleMuteTab
+map gp togglePinTab
+map < moveTabLeft
+map <a-,> moveTabLeft count=99
+map > moveTabRight
+map <a-.> moveTabRight count=99
+map , goPrevious
+map . goNext
+map u visitPreviousTab
+map gt Vomnibar.activateTabSelection
+
+# Lower-case letters are taken to be global marks and vice versa
+map m Marks.activateCreateMode swap
+map ` Marks.activateGotoMode swap
+
+# regex to match gmail modern version but not the plain html version
+# https?://mail.google.com/mail/u/[0-9]/[^h]*
