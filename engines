@@ -1,3 +1,19 @@
+# Assigned to hotkeys
+wiki: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
+google: https://www.google.com/search?q=%s Google
+
+# Find your way from your home to places using Google Maps
+home: https://www.google.com/maps/dir/home/%some: https://www.google.com/maps/dir/home/%s https?://mail.google.com/mail/u/[0-9]/[^h]*
+
+# Maybe useful?
+b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
+e: https://www.ebay.com/sch/?_nkw=%s eBay
+hn: https://www.hnsearch.com/search#request/submissions&q=%s&start=0 HackerNews
+qw: https://www.qwant.com/?q=%s&t=all Qwant search engine
+trello: https://trello.com/search?q=%s Trello
+wa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha
+yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
+
 # Frequently used
 a: https://www.amazon.com/s?k=%s Amazon
 ade: https://www.amazon.de/s?k=%s Amazon
@@ -39,20 +55,8 @@ isup: http://www.isup.me/%s Check website Is Up
 fb: https://www.facebook.com/search/top/?q=%s Facebook
 r: https://www.reddit.com/search?q=%s Reddit
 t: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
-
-# Maybe useful?
-b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
-e: https://www.ebay.com/sch/?_nkw=%s eBay
-hn: https://www.hnsearch.com/search#request/submissions&q=%s&start=0 HackerNews
-hub: https://github.com/search?q=%s GitHub
-qw: https://www.qwant.com/?q=%s&t=all Qwant search engine
-trello: https://trello.com/search?q=%s Trello
-wa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha
-yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
-
-# Assigned to hotkeys
-wiki: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
-google: https://www.google.com/search?q=%s Google
-
-# Find your way from your home to places using Google Maps
-home: https://www.google.com/maps/dir/home/%some: https://www.google.com/maps/dir/home/%s https?://mail.google.com/mail/u/[0-9]/[^h]*
+epub: https://www.epub.vn/search#%s Epub.vn ebooks
+ali: https://www.aliexpress.com/wholesale?SearchText=%s Aliexpress
+hub: https://github.com/search?q=%s GitHub search
+git: https://github.com/search?q=%s GitHub search
+h: https://github.com/search?q=%s GitHub search

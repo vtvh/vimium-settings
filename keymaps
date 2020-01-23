@@ -1,3 +1,4 @@
+# --- Unmap (keep on top) ---
 unmap <a-m>
 unmap <a-p>
 unmap <c-e>
@@ -13,7 +14,7 @@ unmap <<
 unmap gs
 unmap <a-f>
 
-# === Colemak ===
+# --- Colemak ---
 mapkey n j
 mapkey N J
 mapkey e k
@@ -27,47 +28,57 @@ mapkey L I
 mapkey j e
 mapkey J E
 
-
-# === Quick browse ===
+# --- Quick browse ---
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
 map gv createTab https://portal.vamk.fi/my/
-map gh Vomnibar.activate keyword=hub
+map gh createTab https://github.com/
+map gH createTab https://github.com/andreehai1011
 map s Vomnibar.activate keyword=google
 map w Vomnibar.activate keyword=wiki
 
-
-# === Mapping here ===
-map ' LinkHints.activateMode
-map K previousTab
-map J nextTab
-map zh scrollToLeft
-map zl scrollToRight
-map : passNextKey count=999999
-map ; passNextKey
-map - passNextKey normal
-map DD closeOtherTabs
-map <a-x> closeOtherTabs
-map Dh closeTabsOnLeft
-map Dl closeTabsOnRight
-map F LinkHints.activateModeToOpenInNewForegroundTab
-map gc LinkHints.activateModeToOpenIncognito
-map a Vomnibar.activateEditUrl
-map A Vomnibar.activateEditUrlInNewTab
-map M toggleMuteTab
-map gp togglePinTab
-map < moveTabLeft
-map <a-,> moveTabLeft count=99
-map > moveTabRight
-map <a-.> moveTabRight count=99
-map , goPrevious
-map . goNext
-map u visitPreviousTab
-map gt Vomnibar.activateTabSelection
+# --- Mapping here ---
 
 # Lower-case letters are taken to be global marks and vice versa
 map m Marks.activateCreateMode swap
 map ` Marks.activateGotoMode swap
 
-# regex to match gmail modern version but not the plain html version
-# https?://mail.google.com/mail/u/[0-9]/[^h]*
+# Navigate (key has been remapped so neio becomes hjkl)
+map j scrollPageDown
+map k scrollPageUp
+map h scrollToLeft
+map l scrollToRight
+map d scrollFullPageDown
+map u scrollFullPageUp
+map K previousTab
+map J nextTab
+
+# Pass key: - back to normal, ; send next key, :send all keys
+map : passNextKey count=999999
+map ; passNextKey
+map - passNextKey normal
+
+# Close tabs (no need now, "Keyboard Shortcuts to Close" extension handle it)
+# map DD closeOtherTabs
+# map <a-x> closeOtherTabs
+# map Dh closeTabsOnLeft
+# map Dl closeTabsOnRight
+
+# Open links
+map ' LinkHints.activateMode
+map F LinkHints.activateModeToOpenInNewForegroundTab
+map gc LinkHints.activateModeToOpenIncognito
+
+# Move tabs
+map < moveTabLeft
+map <a-,> moveTabLeft count=99
+map > moveTabRight
+map <a-.> moveTabRight count=99
+
+map a Vomnibar.activateEditUrl
+map A Vomnibar.activateEditUrlInNewTab
+map M toggleMuteTab
+map , goPrevious
+map . goNext
+map q visitPreviousTab
+map gt Vomnibar.activateTabSelection
