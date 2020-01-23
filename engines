@@ -2,9 +2,6 @@
 wiki: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
 google: https://www.google.com/search?q=%s Google
 
-# Find your way from your home to places using Google Maps
-home: https://www.google.com/maps/dir/home/%some: https://www.google.com/maps/dir/home/%s https?://mail.google.com/mail/u/[0-9]/[^h]*
-
 # Maybe useful?
 b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
 e: https://www.ebay.com/sch/?_nkw=%s eBay
@@ -14,49 +11,53 @@ trello: https://trello.com/search?q=%s Trello
 wa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha
 yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
 
-# Frequently used
+# Googles
+cache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache
+cs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site
+gi: https://www.google.com/search?tbm=isch&q=%s Google Images
+m: https://mail.google.com/mail/u/0/#search/%s Gmail search
+map: https://www.google.com/maps?q=%s Google Maps
+phrase: https://www.google.com/search?q=”%s” Google Phrase Search
+py: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Past year
+store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
+tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
+
+# Shopping
 a: https://www.amazon.com/s?k=%s Amazon
 ade: https://www.amazon.de/s?k=%s Amazon
+ali: https://www.aliexpress.com/wholesale?SearchText=%s Aliexpress
+hi: https://hinta.fi/haku?q=%s Hinta.fi
+hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
+
+# Frequently used
+archive: https://web.archive.org/web/*/%s Internet Archive
 aw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki
 c: https://chocolatey.org/packages?q=%s Chocolatey packages
 cc: https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s Creative Commons
 d: https://duckduckgo.com/?q=%s DuckDuckGo
+dict: http://dictionary.com/browse/%s Dictionary
+epub: https://www.epub.vn/search#%s Epub.vn ebooks
 es: https://explainshell.com/explain?cmd=%s ExplainShell.com
+fb: https://www.facebook.com/search/top/?q=%s Facebook
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
+flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
-gi: https://www.google.com/search?tbm=isch&q=%s Google Images
-map: https://www.google.com/maps?q=%s Google Maps
-hi: https://hinta.fi/haku?q=%s Hinta.fi
-hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
+git: https://github.com/search?q=%s GitHub search
+h: https://github.com/search?q=%s GitHub search
+hub: https://github.com/search?q=%s GitHub search
 imdb: https://www.imdb.com/find?s=all&q=%s IMDB
+isup: http://www.isup.me/%s Check website Is Up
 lib: https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def LibGen Ebooks
 man: https://www.mankier.com/?q=%s Mankier
+r: https://www.reddit.com/search?q=%s Reddit
+rac: https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 Assassin Creed Reddit search
+raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 Assassin Creed Odyssey Reddit search
 so: https://stackoverflow.com/search?q=%s StackOverflow
 ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
 su: https://superuser.com/search?q=%s SuperUser
-tf: http://www.taifile.net/search.php?q=%s Taifile.net
-tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
-ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
-y: https://www.youtube.com/results?search_query=%s YouTube
-rac: https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 Assassin Creed Reddit search
-raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 Assassin Creed Odyssey Reddit search
-cs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site
-py: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Past year
-dict: http://dictionary.com/browse/%s Dictionary
-the: http://thesaurus.com/browse/%s Therasus synonyms
-cache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache
-m: https://mail.google.com/mail/u/0/#search/%s Gmail search
-whois: http://whois.domaintools.com/%s Whois
-phrase: https://www.google.com/search?q=”%s” Google Phrase Search
-store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
-flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
-archive: https://web.archive.org/web/*/%s Internet Archive
-isup: http://www.isup.me/%s Check website Is Up
-fb: https://www.facebook.com/search/top/?q=%s Facebook
-r: https://www.reddit.com/search?q=%s Reddit
 t: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
-epub: https://www.epub.vn/search#%s Epub.vn ebooks
-ali: https://www.aliexpress.com/wholesale?SearchText=%s Aliexpress
-hub: https://github.com/search?q=%s GitHub search
-git: https://github.com/search?q=%s GitHub search
-h: https://github.com/search?q=%s GitHub search
+tf: http://www.taifile.net/search.php?q=%s Taifile.net
+the: http://thesaurus.com/browse/%s Therasus synonyms
+ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
+whois: http://whois.domaintools.com/%s Whois
+y: https://www.youtube.com/results?search_query=%s YouTube
