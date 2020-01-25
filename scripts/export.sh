@@ -7,3 +7,4 @@ cat engines | win32yank -i
 cmd "/C start /W scripts\paste-engines.amk"
 cat keymaps | win32yank -i
 cmd "/C start /W scripts\paste-keymaps.amk"
+nircmd beep 528 68

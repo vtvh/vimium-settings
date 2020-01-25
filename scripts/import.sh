@@ -11,3 +11,6 @@ mv ~/Downloads/vimium-options.json ./
 # read json into seperate files
 jq -r .keyMappings vimium-options.json > keymaps
 jq -r .searchEngines vimium-options.json > engines
+
+# show it
+code -n engines keymaps
