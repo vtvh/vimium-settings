@@ -36,6 +36,25 @@
       },
       "promptOnClose": false,
       "problemMatcher": []
+    },
+    {
+      "label": "Test - Export",
+      "type": "shell",
+      "command": "./tests/export.sh",
+    //   "presentation": {
+    //     "echo": true,
+    //     "reveal": "silent",
+    //     "focus": false,
+    //     "panel": "shared",
+    //     "showReuseMessage": false,
+    //     "clear": false
+    //   },
+      "promptOnClose": false,
+      "problemMatcher": [],
+     "group": {
+         "kind": "test",
+         "isDefault": true
+     } 
     }
   ]
 }
