@@ -55,9 +55,11 @@ raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 
 so: https://stackoverflow.com/search?q=%s StackOverflow
 ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
 su: https://superuser.com/search?q=%s SuperUser
-t: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
+tw: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
 tf: http://www.taifile.net/search.php?q=%s Taifile.net
 the: http://thesaurus.com/browse/%s Therasus synonyms
 ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
 whois: http://whois.domaintools.com/%s Whois
 y: https://www.youtube.com/results?search_query=%s YouTube
+tldr: https://tldr.ostera.io/%s TLDR please
+vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
