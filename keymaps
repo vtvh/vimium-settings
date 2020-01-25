@@ -3,8 +3,6 @@ unmap <a-m>
 unmap <a-p>
 unmap <c-e>
 unmap <c-y>
-unmap gT
-unmap gt
 unmap ge
 unmap gE
 unmap zH
@@ -34,6 +32,8 @@ map gM createTab https://mail.google.com/mail/u/0/
 map gv createTab https://portal.vamk.fi/my/
 map gh createTab https://github.com/
 map gH createTab https://github.com/andreehai1011
+map gy createTab https://www.youtube.com
+map gY createTab https://www.youtube.com/playlist?list=WL
 map s Vomnibar.activate keyword=google
 map w Vomnibar.activate keyword=wiki
 
@@ -81,4 +81,3 @@ map M toggleMuteTab
 map , goPrevious
 map . goNext
 map q visitPreviousTab
-map gt Vomnibar.activateTabSelection
