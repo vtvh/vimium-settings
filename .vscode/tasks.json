@@ -8,12 +8,7 @@
       "type": "shell",
       "command": "./scripts/export.sh",
       "presentation": {
-        "echo": true,
-        "reveal": "silent",
-        "focus": false,
-        "panel": "shared",
-        "showReuseMessage": false,
-        "clear": false
+        "reveal": "silent"
       },
       "promptOnClose": false,
       "problemMatcher": [],
@@ -38,23 +33,20 @@
       "problemMatcher": []
     },
     {
-      "label": "Test - Export",
+      "label": "Test - Dump export",
       "type": "shell",
-      "command": "./tests/export.sh",
-    //   "presentation": {
-    //     "echo": true,
-    //     "reveal": "silent",
-    //     "focus": false,
-    //     "panel": "shared",
-    //     "showReuseMessage": false,
-    //     "clear": false
-    //   },
-      "promptOnClose": false,
+      "command": "./tests/dump-export.sh",
       "problemMatcher": [],
-     "group": {
-         "kind": "test",
-         "isDefault": true
-     } 
+      "group": "test"
+    },
+    {
+      "label": "Open Vimium Wiki",
+      "type": "shell",
+      "command": "chrome https://github.com/philc/vimium/wiki",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
     }
   ]
 }

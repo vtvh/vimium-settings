@@ -1,3 +1,5 @@
 experi/
 *foo.amk
 todo.md
+tests/jit.sh
+vimium-options.json.old
