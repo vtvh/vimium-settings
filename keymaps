@@ -27,6 +27,8 @@ mapkey j e
 mapkey J E
 
 # --- Quick browse ---
+# Start with letter g means go to someplace
+# eg: gy means go to youtube
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
 map gv createTab https://portal.vamk.fi/my/
@@ -34,11 +36,14 @@ map gh createTab https://github.com/
 map gH createTab https://github.com/andreehai1011
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
-map s Vomnibar.activate keyword=google
-map w Vomnibar.activate keyword=wiki
+map gs createTab https://www.mankier.com/explain
+map gb createTab https://example.com
+
+# --- Hotkey to search ---
+map s Vomnibar.activate keyword=man
+map w Vomnibar.activate keyword=w
 
 # --- Mapping here ---
-
 # Lower-case letters are taken to be global marks and vice versa
 map m Marks.activateCreateMode swap
 map ` Marks.activateGotoMode swap
@@ -58,11 +63,10 @@ map : passNextKey count=999999
 map ; passNextKey
 map - passNextKey normal
 
-# Close tabs (no need now, "Keyboard Shortcuts to Close" extension handle it)
-# map DD closeOtherTabs
-# map <a-x> closeOtherTabs
+# Close tabs (for redundancy, "Keyboard Shortcuts to Close" extension handle it)
+map <a-x> closeOtherTabs
+map <a-r> closeTabsOnRight
 # map Dh closeTabsOnLeft
-# map Dl closeTabsOnRight
 
 # Open links
 map ' LinkHints.activateMode
@@ -81,3 +85,9 @@ map M toggleMuteTab
 map , goPrevious
 map . goNext
 map q visitPreviousTab
+
+# --- Recently changes ---
+# - swap <o> and <O>: <o> now open in new tab instead of current
+# - <a-p> now dedicated for picture-in-picture
+# - search Mankier with <s>
+# <gs> go to Expain shell commands

@@ -1,6 +1,6 @@
 # Assigned to hotkeys
-wiki: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
-google: https://www.google.com/search?q=%s Google
+w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
+g: https://www.google.com/search?q=%s Google
 
 # Maybe useful?
 b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
@@ -18,9 +18,12 @@ gi: https://www.google.com/search?tbm=isch&q=%s Google Images
 m: https://mail.google.com/mail/u/0/#search/%s Gmail search
 map: https://www.google.com/maps?q=%s Google Maps
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
-py: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Past year
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
 tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
+year: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Search in past year
+month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past month
+week: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:w&q=%s Search in past week
+day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
 
 # Shopping
 a: https://www.amazon.com/s?k=%s Amazon
@@ -32,7 +35,6 @@ hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
 # Frequently used
 archive: https://web.archive.org/web/*/%s Internet Archive
 aw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki
-c: https://chocolatey.org/packages?q=%s Chocolatey packages
 cc: https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s Creative Commons
 d: https://duckduckgo.com/?q=%s DuckDuckGo
 dict: http://dictionary.com/browse/%s Dictionary
@@ -63,3 +65,11 @@ whois: http://whois.domaintools.com/%s Whois
 y: https://www.youtube.com/results?search_query=%s YouTube
 tldr: https://tldr.ostera.io/%s TLDR please
 vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
+apk: https://www.apkmirror.com/?&s=%s APK mirror
+ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
+al: https://alternativeto.net/browse/search?q=%s AlternativeTo
+sdb: https://steamdb.info/search/?a=app&q=%s SteamDB
+c: https://insect.sh/?q=%s Insect Sciencetifc Calculator
+cal: https://insect.sh/?q=%s Insect Sciencetifc Calculator
+cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
+bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
