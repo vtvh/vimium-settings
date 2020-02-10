@@ -15,7 +15,7 @@ yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
 cache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache
 cs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site
 gi: https://www.google.com/search?tbm=isch&q=%s Google Images
-m: https://mail.google.com/mail/u/0/#search/%s Gmail search
+gm: https://mail.google.com/mail/u/0/#search/%s Gmail search
 map: https://www.google.com/maps?q=%s Google Maps
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
@@ -73,3 +73,8 @@ c: https://insect.sh/?q=%s Insect Sciencetifc Calculator
 cal: https://insect.sh/?q=%s Insect Sciencetifc Calculator
 cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
 bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
+rd: https://readthedocs.org/search/?q=%s Read the Docs
+rp: https://realpython.com/search?q=%s Real Python
+pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
+m: https://medium.com/search?q=%s Medium
+htg: https://www.howtogeek.com/search/?q=%s How-to Geek
