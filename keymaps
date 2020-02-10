@@ -11,6 +11,7 @@ unmap >>
 unmap <<
 unmap gs
 unmap <a-f>
+unmap T
 
 # --- Colemak ---
 mapkey n j
@@ -32,6 +33,7 @@ mapkey J E
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
 map gv createTab https://portal.vamk.fi/my/
+map gV createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
 map gh createTab https://github.com/
 map gH createTab https://github.com/andreehai1011
 map gy createTab https://www.youtube.com
@@ -85,9 +87,4 @@ map M toggleMuteTab
 map , goPrevious
 map . goNext
 map q visitPreviousTab
-
-# --- Recently changes ---
-# - swap <o> and <O>: <o> now open in new tab instead of current
-# - <a-p> now dedicated for picture-in-picture
-# - search Mankier with <s>
-# <gs> go to Expain shell commands
+map t Vomnibar.activateTabSelection
