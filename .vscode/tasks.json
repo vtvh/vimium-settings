@@ -40,9 +40,36 @@
       "group": "test"
     },
     {
+      "label": "Open Vimium repo on Github",
+      "type": "shell",
+      "command": "chrome https://github.com/philc/vimium",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Vimium changelog",
+      "type": "shell",
+      "command": "chrome https://github.com/philc/vimium/blob/master/CHANGELOG.md",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Open Vimium Wiki",
       "type": "shell",
       "command": "chrome https://github.com/philc/vimium/wiki",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open Vimium in Chrome extensions option",
+      "type": "shell",
+      "command": "chrome chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html",
       "presentation": {
         "reveal": "silent"
       },
