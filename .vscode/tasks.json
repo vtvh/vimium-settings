@@ -83,6 +83,15 @@
         "kind": "test",
         "isDefault": true
       }
+    },
+    {
+      "label": "Sort engines",
+      "type": "shell",
+      "command": "./scripts/sort-engines.sh",
+      "presentation": {
+        "reveal": "silent"
+      },
+      "problemMatcher": []
     }
   ]
 }
