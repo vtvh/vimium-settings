@@ -12,6 +12,11 @@ unmap <<
 unmap gs
 unmap <a-f>
 unmap T
+unmap d
+unmap u
+unmap M
+unmap W
+unmap ?
 
 # --- Colemak ---
 mapkey n j
@@ -32,18 +37,19 @@ mapkey J E
 # eg: gy means go to youtube
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
-map gv createTab https://portal.vamk.fi/my/
+map gp createTab https://portal.vamk.fi/my/
+map gv createTab https://vim.rtorr.com/
 map gV createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
 map gh createTab https://github.com/
 map gH createTab https://github.com/andreehai1011
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
-map gs createTab https://www.mankier.com/explain
+map gk createTab https://www.mankier.com/explain # mean ge because K swaped to E
 map gb createTab https://example.com
 
 # --- Hotkey to search ---
-map s Vomnibar.activate keyword=man
-map w Vomnibar.activate keyword=w
+map M Vomnibar.activate keyword=man
+map s Vomnibar.activate keyword=g
 
 # --- Mapping here ---
 # Lower-case letters are taken to be global marks and vice versa
@@ -53,14 +59,12 @@ map ` Marks.activateGotoMode swap
 # Navigate (key has been remapped so neio becomes hjkl)
 map j scrollPageDown
 map k scrollPageUp
-map h scrollToLeft
-map l scrollToRight
-map d scrollFullPageDown
-map u scrollFullPageUp
+map h scrollLeft count=5
+map l scrollRight count=5
 map K previousTab
 map J nextTab
 
-# Pass key: - back to normal, ; send next key, :send all keys
+# Pass key: <-> back to normal <;> send next key <:> send all keys
 map : passNextKey count=999999
 map ; passNextKey
 map - passNextKey normal
@@ -68,12 +72,13 @@ map - passNextKey normal
 # Close tabs (for redundancy, "Keyboard Shortcuts to Close" extension handle it)
 map <a-x> closeOtherTabs
 map <a-r> closeTabsOnRight
-# map Dh closeTabsOnLeft
+map <a-R> closeTabsOnLeft
 
 # Open links
 map ' LinkHints.activateMode
 map F LinkHints.activateModeToOpenInNewForegroundTab
 map gc LinkHints.activateModeToOpenIncognito
+map zf LinkHints.activateModeWithQueue
 
 # Move tabs
 map < moveTabLeft
@@ -81,10 +86,16 @@ map <a-,> moveTabLeft count=99
 map > moveTabRight
 map <a-.> moveTabRight count=99
 
+# Z key
+map zp togglePinTab
+map zm toggleMuteTab
+map zs toggleViewSource
+map zh showHelp
+
 map a Vomnibar.activateEditUrl
 map A Vomnibar.activateEditUrlInNewTab
-map M toggleMuteTab
 map , goPrevious
 map . goNext
 map q visitPreviousTab
 map t Vomnibar.activateTabSelection
+map w moveTabToNewWindow

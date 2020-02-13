@@ -74,6 +74,15 @@
         "reveal": "silent"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "Test - Find Duplicate",
+      "type": "shell",
+      "command": "./tests/find-dup-engines.sh",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
     }
   ]
 }

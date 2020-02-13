@@ -1,7 +1,3 @@
-# Assigned to hotkeys
-w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
-g: https://www.google.com/search?q=%s Google
-
 # Maybe useful?
 b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
 e: https://www.ebay.com/sch/?_nkw=%s eBay
@@ -14,16 +10,17 @@ yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
 # Googles
 cache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache
 cs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site
+day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
+g: https://www.google.com/search?q=%s Google
 gi: https://www.google.com/search?tbm=isch&q=%s Google Images
 gm: https://mail.google.com/mail/u/0/#search/%s Gmail search
 map: https://www.google.com/maps?q=%s Google Maps
+month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past month
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
 tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
-year: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Search in past year
-month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past month
 week: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:w&q=%s Search in past week
-day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
+year: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Search in past year
 
 # Shopping
 a: https://www.amazon.com/s?k=%s Amazon
@@ -33,48 +30,49 @@ hi: https://hinta.fi/haku?q=%s Hinta.fi
 hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
 
 # Frequently used
+al: https://alternativeto.net/browse/search?q=%s AlternativeTo
+apk: https://www.apkmirror.com/?&s=%s APK mirror
 archive: https://web.archive.org/web/*/%s Internet Archive
 aw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki
+bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
+c: https://insect.sh/?q=%s Insect Sciencetifc Calculator
+cal: https://insect.sh/?q=%s Insect Sciencetifc Calculator
 cc: https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s Creative Commons
+cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
 d: https://duckduckgo.com/?q=%s DuckDuckGo
 dict: http://dictionary.com/browse/%s Dictionary
 epub: https://www.epub.vn/search#%s Epub.vn ebooks
 es: https://explainshell.com/explain?cmd=%s ExplainShell.com
 fb: https://www.facebook.com/search/top/?q=%s Facebook
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
+fi: https://fileinfo.com/search/%s File Info
 flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
-git: https://github.com/search?q=%s GitHub search
 h: https://github.com/search?q=%s GitHub search
-hub: https://github.com/search?q=%s GitHub search
+htg: https://www.howtogeek.com/search/?q=%s How-to Geek
+ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
 imdb: https://www.imdb.com/find?s=all&q=%s IMDB
 isup: http://www.isup.me/%s Check website Is Up
 lib: https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def LibGen Ebooks
+m: https://medium.com/search?q=%s Medium
 man: https://www.mankier.com/?q=%s Mankier
+pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
 r: https://www.reddit.com/search?q=%s Reddit
 rac: https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 Assassin Creed Reddit search
 raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 Assassin Creed Odyssey Reddit search
+rp: https://realpython.com/search?q=%s Real Python
+rtd: https://readthedocs.org/search/?q=%s Read the Docs
+sdb: https://steamdb.info/search/?a=app&q=%s SteamDB
 so: https://stackoverflow.com/search?q=%s StackOverflow
 ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
 su: https://superuser.com/search?q=%s SuperUser
-tw: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
+t: https://search.torrents.io/%s Torrent Search
 tf: http://www.taifile.net/search.php?q=%s Taifile.net
 the: http://thesaurus.com/browse/%s Therasus synonyms
+tldr: https://tldr.ostera.io/%s TLDR please
+tw: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
 ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
+vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
+w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
 whois: http://whois.domaintools.com/%s Whois
 y: https://www.youtube.com/results?search_query=%s YouTube
-tldr: https://tldr.ostera.io/%s TLDR please
-vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
-apk: https://www.apkmirror.com/?&s=%s APK mirror
-ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
-al: https://alternativeto.net/browse/search?q=%s AlternativeTo
-sdb: https://steamdb.info/search/?a=app&q=%s SteamDB
-c: https://insect.sh/?q=%s Insect Sciencetifc Calculator
-cal: https://insect.sh/?q=%s Insect Sciencetifc Calculator
-cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
-bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
-rd: https://readthedocs.org/search/?q=%s Read the Docs
-rp: https://realpython.com/search?q=%s Real Python
-pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
-m: https://medium.com/search?q=%s Medium
-htg: https://www.howtogeek.com/search/?q=%s How-to Geek

@@ -1,0 +1,22 @@
+# --- Recently changes ---
+## some day i don't remember
+- swap <o> and <O>: <o> now open in new tab instead of current
+- <a-p> now dedicated for picture-in-picture
+- search Mankier with <s>
+- <gs> go to Expain shell commands
+
+## 10-Feb-20
+- map t as search for opened tab
+
+## 13-Feb-20
+bo up down
+left/rigth x5 
+
+a-R closeTabsOnLeft
+w moveTabToNewWindow
+
+zp togglePinTab
+zm toggleMuteTab
+zs toggleViewSource
+zh showHelp
+zf LinkHints.activateModeWithQueue
