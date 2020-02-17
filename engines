@@ -48,6 +48,7 @@ fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
 fi: https://fileinfo.com/search/%s File Info
 flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
+gsm: https://www.gsmarena.com/res.php3?sSearch=%s GSM Arena
 h: https://github.com/search?q=%s GitHub search
 htg: https://www.howtogeek.com/search/?q=%s How-to Geek
 ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
@@ -57,6 +58,7 @@ lib: https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=
 m: https://medium.com/search?q=%s Medium
 man: https://www.mankier.com/?q=%s Mankier
 pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
+pp: https://pypi.org/search/?q=%s PyPi Python packages
 r: https://www.reddit.com/search?q=%s Reddit
 rac: https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 Assassin Creed Reddit search
 raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 Assassin Creed Odyssey Reddit search
