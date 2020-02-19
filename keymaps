@@ -59,10 +59,13 @@ map ` Marks.activateGotoMode swap
 # Navigate (key has been remapped so neio becomes hjkl)
 map j scrollPageDown
 map k scrollPageUp
-map h scrollLeft count=5
-map l scrollRight count=5
+map h goBack
+map l goForward
+
 map K previousTab
 map J nextTab
+map H scrollLeft count=5
+map L scrollRight count=5
 
 # Pass key: <-> back to normal <;> send next key <:> send all keys
 map : passNextKey count=999999
