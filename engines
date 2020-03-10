@@ -43,9 +43,9 @@ d: https://duckduckgo.com/?q=%s DuckDuckGo
 dict: http://dictionary.com/browse/%s Dictionary
 epub: https://www.epub.vn/search#%s Epub.vn ebooks
 es: https://explainshell.com/explain?cmd=%s ExplainShell.com
+f: https://fileinfo.com/search/%s File Info
 fb: https://www.facebook.com/search/top/?q=%s Facebook
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
-fi: https://fileinfo.com/search/%s File Info
 flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
 gsm: https://www.gsmarena.com/res.php3?sSearch=%s GSM Arena
@@ -57,6 +57,7 @@ isup: http://www.isup.me/%s Check website Is Up
 lib: https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def LibGen Ebooks
 m: https://medium.com/search?q=%s Medium
 man: https://www.mankier.com/?q=%s Mankier
+mobi: https://forum.mobilism.org/search.php?keywords=%s&sr=topics&sf=titleonly Mobilism Apps & Books
 pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
 pp: https://pypi.org/search/?q=%s PyPi Python packages
 r: https://www.reddit.com/search?q=%s Reddit
@@ -77,4 +78,5 @@ ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
 vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
 w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
 whois: http://whois.domaintools.com/%s Whois
+wvi: https://vi.wikipedia.org/wiki/Special:Search?search=%s Wikipedia Tiếng Việt
 y: https://www.youtube.com/results?search_query=%s YouTube
