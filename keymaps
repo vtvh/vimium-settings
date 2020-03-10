@@ -80,8 +80,9 @@ map <a-R> closeTabsOnLeft
 # Open links
 map ' LinkHints.activateMode
 map F LinkHints.activateModeToOpenInNewForegroundTab
-map gc LinkHints.activateModeToOpenIncognito
 map zf LinkHints.activateModeWithQueue
+map zc LinkHints.activateModeToOpenIncognito
+map zd LinkHints.activateModeToDownloadLink
 
 # Move tabs
 map < moveTabLeft
@@ -94,6 +95,9 @@ map zp togglePinTab
 map zm toggleMuteTab
 map zs toggleViewSource
 map zh showHelp
+map zj LinkHints.activateMode action=hover
+map zk LinkHints.activateMode action=focus
+map zy LinkHints.activateMode action=copy-text
 
 # normal key will open in new tab, SHIFTed key open in current tab
 map P openCopiedUrlInCurrentTab
