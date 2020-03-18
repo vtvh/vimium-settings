@@ -109,6 +109,7 @@ map b Vomnibar.activateBookmarksInNewTab
 map A Vomnibar.activateEditUrl
 map a Vomnibar.activateEditUrlInNewTab
 
+# Others
 map , goPrevious
 map . goNext
 map q visitPreviousTab

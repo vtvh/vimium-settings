@@ -75,8 +75,10 @@ the: http://thesaurus.com/browse/%s Therasus synonyms
 tldr: https://tldr.ostera.io/%s TLDR please
 tw: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
 ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
+viw: https://vi.wikipedia.org/wiki/Special:Search?search=%s Wikipedia Tiếng Việt
+viwt: https://vi.wiktionary.org/w/index.php?search=%s&title=%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm&go=Xem&ns0=1 Wiktionary tiếng Việt
 vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
 w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
 whois: http://whois.domaintools.com/%s Whois
-wvi: https://vi.wikipedia.org/wiki/Special:Search?search=%s Wikipedia Tiếng Việt
+wt: https://en.wiktionary.org/w/index.php?search=%s&title=Special%3ASearch&go=Go&ns0=1 Wiktionary - English
 y: https://www.youtube.com/results?search_query=%s YouTube
