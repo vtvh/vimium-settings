@@ -44,7 +44,7 @@ map gh createTab https://github.com/
 map gH createTab https://github.com/andreehai1011
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
-map gk createTab https://www.mankier.com/explain # mean ge because K swaped to E
+map gk createTab https://www.mankier.com/explain # mean ge because K swapped to E
 map gw createTab https://web.whatsapp.com/
 
 # --- Hotkey to search ---
