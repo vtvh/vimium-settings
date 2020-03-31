@@ -79,10 +79,17 @@ map <a-R> closeTabsOnLeft
 
 # Open links
 map ' LinkHints.activateMode
+map " LinkHints.activateModeToOpenInNewForegroundTab
+map <a-"> LinkHints.activateModeWithQueue
+map <a-'> LinkHints.activateModeToOpenIncognito
+map y' LinkHints.activateModeToCopyLinkUrl
+
+# Open links (F key)
+map f LinkHints.activateMode
 map F LinkHints.activateModeToOpenInNewForegroundTab
 map zf LinkHints.activateModeWithQueue
 map zc LinkHints.activateModeToOpenIncognito
-map zd LinkHints.activateModeToDownloadLink
+map yf LinkHints.activateModeToCopyLinkUrl
 
 # Move tabs
 map < moveTabLeft
@@ -91,9 +98,10 @@ map > moveTabRight
 map <a-.> moveTabRight count=99
 
 # Z key
+map zd LinkHints.activateModeToDownloadLink
 map zh showHelp
-map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html 
 map zy LinkHints.activateMode action=copy-text
+map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html 
 
 # pin and mute should be handle by browser-wide hotkey
 # map zp togglePinTab
