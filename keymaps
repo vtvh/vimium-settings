@@ -37,6 +37,10 @@ mapkey J E
 # eg: gy means go to youtube
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
+map g1m createTab https://mail.google.com/mail/u/1/h/
+map g1M createTab https://mail.google.com/mail/u/1/
+map g2m createTab https://mail.google.com/mail/u/2/h/
+map g2M createTab https://mail.google.com/mail/u/2/
 map gp createTab https://portal.vamk.fi/my/
 map gv createTab https://vim.rtorr.com/
 map gV createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
