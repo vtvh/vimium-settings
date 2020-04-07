@@ -27,8 +27,6 @@ aw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki
 bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
 vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
 w: https://en.wikipedia.org/wiki/Special:Search?search=%s Wikipedia
-wt: https://en.wiktionary.org/w/index.php?search=%s&title=Special%3ASearch&go=Go&ns0=1 Wiktionary - English
-wtvi: https://vi.wiktionary.org/w/index.php?search=%s&title=%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm&go=Xem&ns0=1 Wiktionary tiếng Việt
 wvi: https://vi.wikipedia.org/wiki/Special:Search?search=%s Wikipedia Tiếng Việt
 
 # Shopping
@@ -56,6 +54,17 @@ su: https://superuser.com/search?q=%s SuperUser
 tldr: https://tldr.ostera.io/%s TLDR please
 whois: http://whois.domaintools.com/%s Whois
 
+# Dictionary
+dict: http://dictionary.com/browse/%s Dictionary.com
+fi: https://en.bab.la/dictionary/finnish-english/%s Bab.la Fi-En Dictionary
+hv: https://hvdic.thivien.net/hv/ Từ điển Hán Việt - Thivien.net
+prn: https://forvo.com/search/ Forvo.com Pronounce
+thera: http://thesaurus.com/browse/%s Therasus synonyms
+ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
+vi: https://vi.wiktionary.org/w/index.php?search=%s&title=%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm&go=Xem&ns0=1 Wiktionary tiếng Việt
+vien: https://vi.bab.la/dictionary/vietnamese-english/%s Bab.la Fi-En Dictionary
+wt: https://en.wiktionary.org/w/index.php?search=%s&title=Special%3ASearch&go=Go&ns0=1 Wiktionary - English
+
 # Misc
 al: https://alternativeto.net/browse/search?q=%s AlternativeTo
 apk: https://www.apkmirror.com/?&s=%s APK mirror
@@ -65,7 +74,6 @@ cal: https://insect.sh/?q=%s Insect Sciencetifc Calculator
 cc: https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s Creative Commons
 cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
 d: https://duckduckgo.com/?q=%s DuckDuckGo
-dict: http://dictionary.com/browse/%s Dictionary
 epub: https://www.epub.vn/search#%s Epub.vn ebooks
 fb: https://www.facebook.com/search/top/?q=%s Facebook
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
@@ -84,7 +92,5 @@ raco: https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 
 sdb: https://steamdb.info/search/?a=app&q=%s SteamDB
 t: https://search.torrents.io/%s Torrent Search
 tf: http://www.taifile.net/search.php?q=%s Taifile.net
-the: http://thesaurus.com/browse/%s Therasus synonyms
 tw: https://twitter.com/search?q=%s&vertical=default&f=tweets Twitter
-ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
 y: https://www.youtube.com/results?search_query=%s YouTube
