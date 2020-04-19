@@ -19,6 +19,10 @@ month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past m
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
 tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
+
+# Time-based
+day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
+month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past month
 week: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:w&q=%s Search in past week
 year: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Search in past year
 
