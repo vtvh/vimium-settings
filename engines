@@ -83,6 +83,7 @@ fb: https://www.facebook.com/search/top/?q=%s Facebook
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
 flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
+gr: https://www.goodreads.com/search?q= Goodreads
 gsm: https://www.gsmarena.com/res.php3?sSearch=%s GSM Arena
 htg: https://www.howtogeek.com/search/?q=%s How-to Geek
 ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
