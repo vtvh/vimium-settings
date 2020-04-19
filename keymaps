@@ -130,3 +130,5 @@ map . goNext
 map q visitPreviousTab
 map t Vomnibar.activateTabSelection
 map w moveTabToNewWindow
+map u removeTab
+map U restoreTab
