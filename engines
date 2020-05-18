@@ -1,7 +1,7 @@
 # Maybe useful?
 b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
 e: https://www.ebay.com/sch/?_nkw=%s eBay
-hn: https://www.hnsearch.com/search#request/submissions&q=%s&start=0 HackerNews
+hn: https://hn.algolia.com/?q= Hacker News
 qw: https://www.qwant.com/?q=%s&t=all Qwant search engine
 trello: https://trello.com/search?q=%s Trello
 wa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha
