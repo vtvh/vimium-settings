@@ -10,12 +10,10 @@ yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
 # Googles
 cache: http://webcache.googleusercontent.com/search?q=cache:%s Google cache
 cs: javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 Current site
-day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
 g: https://www.google.com/search?q=%s Google
 gi: https://www.google.com/search?tbm=isch&q=%s Google Images
 gm: https://mail.google.com/mail/u/0/#search/%s Gmail search
 map: https://www.google.com/maps?q=%s Google Maps
-month: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s Search in past month
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
 tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
