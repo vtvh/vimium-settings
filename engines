@@ -27,6 +27,7 @@ week: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:w&q=%s Search in past we
 year: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Search in past year
 
 # Wiki
+br: https://www.britannica.com/search?query= Encyclopaedia Britannica
 aw: https://wiki.archlinux.org/index.php?search=%s Arch Linux Wiki
 bw: https://wiki.bash-hackers.org/doku.php?&do=search&q=%s The Bash Hackers Wiki
 vw: https://vim.fandom.com/wiki/Special:Search?query=%s Vim Fandom Wiki
@@ -42,6 +43,7 @@ hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
 
 # Dev
 dh: https://devhints.io/?q=%s Devhints.io Cheatsheet
+dk: https://hub.docker.com/search?q= Docker hub
 es: https://explainshell.com/explain?cmd=%s ExplainShell.com
 f: https://fileinfo.com/search/%s File Info
 h: https://github.com/search?q=%s GitHub search
@@ -68,6 +70,7 @@ ud: https://www.urbandictionary.com/define.php?term=%s UrbanDictionary
 vi: https://vi.wiktionary.org/w/index.php?search=%s&title=%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm&go=Xem&ns0=1 Wiktionary tiếng Việt
 vien: https://vi.bab.la/dictionary/vietnamese-english/%s Bab.la Fi-En Dictionary
 wt: https://en.wiktionary.org/w/index.php?search=%s&title=Special%3ASearch&go=Go&ns0=1 Wiktionary - English
+mw: https://www.merriam-webster.com/dictionary/ Merriam-Webster Dictionary
 
 # Misc
 al: https://alternativeto.net/browse/search?q=%s AlternativeTo
@@ -80,11 +83,14 @@ cl: https://chocolatey.org/packages?q=%s Chocolatey list packages
 d: https://duckduckgo.com/?q=%s DuckDuckGo
 epub: https://www.epub.vn/search#%s Epub.vn ebooks
 fb: https://www.facebook.com/search/top/?q=%s Facebook
+fd: https://www.finder.fi/search?what= Finder.fi
 fg: http://fitgirl-repacks.site/?s=%s FitGirl repacks
 flickr: http://www.flickr.com/search/?q=%s&l=4 Flickr Creative Commons Search
 ge: https://genius.com/search?q=%s Genius lyrics
 gr: https://www.goodreads.com/search?q= Goodreads
 gsm: https://www.gsmarena.com/res.php3?sSearch=%s GSM Arena
+hs: https://thuvienhoasen.org/search?k= Thu Vien Hoa Sen
+hsgg: https://www.google.com/search?num=50&q=site:thuvienhoasen.org+ Thu Vien Hoa Sen (GG)
 htg: https://www.howtogeek.com/search/?q=%s How-to Geek
 ico: https://www.iconfinder.com/search/?q=%s&price=free Icon Finder
 imdb: https://www.imdb.com/find?s=all&q=%s IMDB
