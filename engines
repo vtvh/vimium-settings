@@ -55,6 +55,7 @@ rtd: https://readthedocs.org/search/?q=%s Read the Docs
 so: https://stackoverflow.com/search?q=%s StackOverflow
 ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
 su: https://superuser.com/search?q=%s SuperUser
+tld: https://www.iana.org/domains/root/db/%s IANA Top-level domain record
 tldr: https://tldr.ostera.io/%s TLDR please
 whois: http://whois.domaintools.com/%s Whois
 
