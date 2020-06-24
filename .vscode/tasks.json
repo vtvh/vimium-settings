@@ -4,9 +4,9 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Export to Chrome",
+      "label": "Build: Export to Chrome",
       "type": "shell",
-      "command": "./scripts/export.sh",
+      "command": "make",
       "presentation": {
         "reveal": "silent"
       },

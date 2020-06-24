@@ -1,0 +1,2 @@
+build:
+	./scripts/export.sh
