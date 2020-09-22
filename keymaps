@@ -42,14 +42,17 @@ map g1M createTab https://mail.google.com/mail/u/1/
 map g2m createTab https://mail.google.com/mail/u/2/h/
 map g2M createTab https://mail.google.com/mail/u/2/
 map gp createTab https://portal.vamk.fi/my/
-map gv createTab https://vim.rtorr.com/
-map gV createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
+map gv createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
+map gV createTab https://vim.rtorr.com/
 map gh createTab https://github.com/
-map gH createTab https://github.com/andreehai1011
+map gH createTab https://github.com/vtvh
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
 map gk createTab https://www.mankier.com/explain # mean ge because K swapped to E
 map gw createTab https://web.whatsapp.com/
+map gn createTab https://keep.google.com/u/0/ # mean gk
+map gx createTab chrome://extensions
+map gX createTab chrome://extensions/shortcuts
 
 # --- Hotkey to search ---
 map M Vomnibar.activateInNewTab keyword=man 
