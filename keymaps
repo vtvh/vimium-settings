@@ -102,7 +102,7 @@ map <a-.> moveTabRight count=99
 map zd LinkHints.activateModeToDownloadLink
 map zh showHelp
 map zy LinkHints.activateMode action=copy-text
-map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html 
+map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html
 
 # pin and mute should be handle by browser-wide hotkey
 # map zp togglePinTab
@@ -127,5 +127,4 @@ map . goNext
 map q visitPreviousTab
 map t Vomnibar.activateTabSelection
 map w moveTabToNewWindow
-map u removeTab
-map U restoreTab
+
