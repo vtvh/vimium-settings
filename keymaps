@@ -111,15 +111,15 @@ map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/optio
 # map zj LinkHints.activateMode action=hover
 # map zk LinkHints.activateMode action=focus
 
-# normal key will open in new tab, SHIFTed key open in current tab
-map P openCopiedUrlInCurrentTab
-map p openCopiedUrlInNewTab
-map O Vomnibar.activate
-map o Vomnibar.activateInNewTab
-map B Vomnibar.activateBookmarks
-map b Vomnibar.activateBookmarksInNewTab
-map A Vomnibar.activateEditUrl
-map a Vomnibar.activateEditUrlInNewTab
+# normal letter: current tab; CAPITAL letter: newtab
+map p openCopiedUrlInCurrentTab
+map P openCopiedUrlInNewTab
+map o Vomnibar.activate
+map O Vomnibar.activateInNewTab
+map b Vomnibar.activateBookmarks
+map B Vomnibar.activateBookmarksInNewTab
+map a Vomnibar.activateEditUrl
+map A Vomnibar.activateEditUrlInNewTab
 
 # Others
 map , goPrevious
