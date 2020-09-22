@@ -86,13 +86,6 @@ map <a-r> closeTabsOnRight
 map <a-R> closeTabsOnLeft
 
 # Open links
-map ' LinkHints.activateMode
-map " LinkHints.activateModeToOpenInNewForegroundTab
-map <a-"> LinkHints.activateModeWithQueue
-map <a-'> LinkHints.activateModeToOpenIncognito
-map y' LinkHints.activateModeToCopyLinkUrl
-
-# Open links (F key)
 map f LinkHints.activateMode
 map F LinkHints.activateModeToOpenInNewForegroundTab
 map zf LinkHints.activateModeWithQueue
