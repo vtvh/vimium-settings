@@ -62,6 +62,7 @@ map s Vomnibar.activateInNewTab keyword=g
 # Lower-case letters are taken to be global marks and vice versa
 map m Marks.activateCreateMode swap
 map ` Marks.activateGotoMode swap
+map ' Marks.activateGotoMode swap # Follow vim tradition
 
 # Navigate (key has been remapped so neio becomes hjkl)
 map j scrollPageDown
