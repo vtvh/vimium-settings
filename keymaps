@@ -105,17 +105,17 @@ map > moveTabRight
 map <a-.> moveTabRight count=99
 
 # Z key
-map zd LinkHints.activateModeToDownloadLink
-map zh showHelp
-map zy LinkHints.activateMode action=copy-text
 map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html
 
-# pin and mute should be handle by browser-wide hotkey
-# map zp togglePinTab
-# map zm toggleMuteTab
-# map zs toggleViewSource
-# map zj LinkHints.activateMode action=hover
-# map zk LinkHints.activateMode action=focus
+map zh showHelp
+map zp togglePinTab
+map zm toggleMuteTab
+map zs toggleViewSource
+
+map zy LinkHints.activateMode action=copy-text
+map zd LinkHints.activateModeToDownloadLink
+map zj LinkHints.activateMode action=hover
+map zk LinkHints.activateMode action=focus
 
 # normal letter: current tab; CAPITAL letter: newtab
 map p openCopiedUrlInCurrentTab
