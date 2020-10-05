@@ -5,3 +5,4 @@ tests/jit.sh
 vimium-options.json.old
 notes.md
 meta.txt
+tmp/
