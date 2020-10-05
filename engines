@@ -4,7 +4,7 @@ e: https://www.ebay.com/sch/?_nkw=%s eBay
 hn: https://hn.algolia.com/?q=%s Hacker News
 qw: https://www.qwant.com/?q=%s&t=all Qwant search engine
 trello: https://trello.com/search?q=%s Trello
-wa: https://www.wolframalpha.com/input/?i=%s Wolfram|Alpha
+wa: https://www.wolframalpha.com/input/?i=%s Wolfram Alpha
 yh: https://search.yahoo.com/search?p=%s&ei=UTF-8 Yahoo
 
 # Googles
@@ -14,6 +14,7 @@ ct: https://contacts.google.com/search/%s Google Contacts
 g: https://www.google.com/search?q=%s Google
 gi: https://www.google.com/search?tbm=isch&q=%s Google Images
 gm: https://mail.google.com/mail/u/0/#search/%s Gmail search
+gt: https://trends.google.com/trends/explore?q=%s Google Trends
 map: https://www.google.com/maps?q=%s Google Maps
 phrase: https://www.google.com/search?q=”%s” Google Phrase Search
 store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
