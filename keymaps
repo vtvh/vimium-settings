@@ -35,12 +35,16 @@ mapkey J E
 # --- Quick browse ---
 # Start with letter g means go to someplace
 # eg: gy means go to youtube
+
+# Mail stuffs
 map gm createTab https://mail.google.com/mail/u/0/h/
 map gM createTab https://mail.google.com/mail/u/0/
 map g1m createTab https://mail.google.com/mail/u/1/h/
 map g1M createTab https://mail.google.com/mail/u/1/
 map g2m createTab https://mail.google.com/mail/u/2/h/
 map g2M createTab https://mail.google.com/mail/u/2/
+
+# Miscs
 map gp createTab https://portal.vamk.fi/my/
 map gv createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
 map gV createTab https://vim.rtorr.com/
@@ -48,14 +52,16 @@ map gh createTab https://github.com/
 map gH createTab https://github.com/vtvh
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
-map gk createTab https://www.mankier.com/explain # mean ge because K swapped to E
+map gk createTab https://explainshell.com/
+map gK createTab https://www.mankier.com/explain # mean ge because K swapped to E
 map gw createTab https://web.whatsapp.com/
 map gn createTab https://keep.google.com/u/0/ # mean gk
 map gx createTab chrome://extensions
 map gX createTab chrome://extensions/shortcuts
+map gb createTab https://devhints.io/bash#conditionals
 
 # --- Hotkey to search ---
-map M Vomnibar.activateInNewTab keyword=man 
+map M Vomnibar.activateInNewTab keyword=man
 map s Vomnibar.activateInNewTab keyword=g
 
 # --- Mapping here ---
@@ -99,17 +105,17 @@ map > moveTabRight
 map <a-.> moveTabRight count=99
 
 # Z key
-map zd LinkHints.activateModeToDownloadLink
-map zh showHelp
-map zy LinkHints.activateMode action=copy-text
 map zz createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html
 
-# pin and mute should be handle by browser-wide hotkey
-# map zp togglePinTab
-# map zm toggleMuteTab
-# map zs toggleViewSource
-# map zj LinkHints.activateMode action=hover
-# map zk LinkHints.activateMode action=focus
+map zh showHelp
+map zp togglePinTab
+map zm toggleMuteTab
+map zs toggleViewSource
+
+map zy LinkHints.activateMode action=copy-text
+map zd LinkHints.activateModeToDownloadLink
+map zj LinkHints.activateMode action=hover
+map zk LinkHints.activateMode action=focus
 
 # normal letter: current tab; CAPITAL letter: newtab
 map p openCopiedUrlInCurrentTab
