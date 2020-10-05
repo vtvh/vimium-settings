@@ -8,5 +8,5 @@ cmd "/C start /W scripts\paste-engines.amk"
 cat keymaps | win32yank -i
 cmd "/C start /W scripts\paste-keymaps.amk"
 
-nircmd sendkeypress ctrl+w alt+tab
+# nircmd sendkeypress ctrl+w alt+tab
 nircmd beep 528 68
