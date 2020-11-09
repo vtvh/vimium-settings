@@ -1,4 +1,4 @@
-[All keymaps](../keymaps) | [All engines](../engines)
+[All keymaps](https://github.com/vtvh/vimium-settings/blob/master/keymaps) | [All engines](https://github.com/vtvh/vimium-settings/blob/master/engines)
 
 ### Quick jumps
 
