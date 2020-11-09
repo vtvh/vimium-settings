@@ -48,7 +48,7 @@ map g2M createTab https://mail.google.com/mail/u/2/
 map gp createTab https://portal.vamk.fi/my/
 map gv createTab https://github.com/VSCodeVim/Vim#-vscodevim-tricks
 map gV createTab https://vim.rtorr.com/
-map gh createTab https://github.com/
+map gh createTab https://github.com/vtvh?tab=repositories&type=source
 map gH createTab https://gist.github.com/vtvh/starred
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
@@ -56,12 +56,10 @@ map gk createTab https://explainshell.com/
 map gK createTab https://www.mankier.com/explain # mean ge because K swapped to E
 map gw createTab https://web.whatsapp.com/
 map gn createTab https://keep.google.com/u/0/ # mean gk
-map gx createTab chrome://extensions
-map gX createTab chrome://extensions/shortcuts
 map gb createTab https://devhints.io/bash#conditionals
 map gt createTab https://www.thivien.net/topics.php
 map gT createTab https://www.thivien.net/google_search.php
-map gaaa createTab https://www.thivien.net/searchpoem.php
+map gx createTab chrome://extensions/shortcuts
 
 # --- Hotkey to search ---
 map M Vomnibar.activateInNewTab keyword=man
