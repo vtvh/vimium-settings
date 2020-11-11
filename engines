@@ -1,3 +1,26 @@
+# Dev
+dh: https://devhints.io/?q=%s Devhints.io Cheatsheet
+dk: https://hub.docker.com/search?q=%s Docker hub
+es: https://explainshell.com/explain?cmd=%s ExplainShell.com
+f: https://fileinfo.com/search/%s File Info
+gh: https://github.com/search?q=%s GitHub search
+gist: https://gist.github.com/search?q=%s Gist search
+hint: https://devhints.io/?q=%s Devhints.io Cheatsheet
+isup: http://www.isup.me/%s Check website Is Up
+man: https://www.mankier.com/?q=%s Mankier
+npm: https://www.npmjs.com/search?q=%s npm packages
+pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
+pp: https://pypi.org/search/?q=%s PyPi Python packages
+rp: https://realpython.com/search?q=%s Real Python
+rtd: https://readthedocs.org/search/?q=%s Read the Docs
+so: https://stackoverflow.com/search?q=%s StackOverflow
+ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
+su: https://superuser.com/search?q=%s SuperUser
+tld: https://www.iana.org/domains/root/db/%s IANA Top-level domain record
+tldr: https://tldr.ostera.io/%s TLDR please
+use: https://unix.stackexchange.com/search?q=%s Unix & Linux Stack Exchange
+whois: http://whois.domaintools.com/%s Whois
+
 # Maybe useful?
 b: https://www.bing.com/search?setmkt=en-GB&q=%s Bing
 e: https://www.ebay.com/sch/?_nkw=%s eBay
@@ -41,29 +64,6 @@ ade: https://www.amazon.de/s?k=%s Amazon
 ali: https://www.aliexpress.com/wholesale?SearchText=%s Aliexpress
 hi: https://hinta.fi/haku?q=%s Hinta.fi
 hip: https://hintaopas.fi/search?search=%s Hintaopas prices search
-
-# Dev
-dh: https://devhints.io/?q=%s Devhints.io Cheatsheet
-dk: https://hub.docker.com/search?q=%s Docker hub
-es: https://explainshell.com/explain?cmd=%s ExplainShell.com
-f: https://fileinfo.com/search/%s File Info
-gh: https://github.com/search?q=%s GitHub search
-gist: https://gist.github.com/search?q=%s Gist search
-hint: https://devhints.io/?q=%s Devhints.io Cheatsheet
-isup: http://www.isup.me/%s Check website Is Up
-man: https://www.mankier.com/?q=%s Mankier
-npm: https://www.npmjs.com/search?q=%s npm packages
-pd: https://docs.python.org/3/search.html?q=%s Python 3 Documentation
-pp: https://pypi.org/search/?q=%s PyPi Python packages
-rp: https://realpython.com/search?q=%s Real Python
-rtd: https://readthedocs.org/search/?q=%s Read the Docs
-so: https://stackoverflow.com/search?q=%s StackOverflow
-ss: https://www.google.com/search?q=%s&sitesearch=ss64.com ss64.com
-su: https://superuser.com/search?q=%s SuperUser
-tld: https://www.iana.org/domains/root/db/%s IANA Top-level domain record
-tldr: https://tldr.ostera.io/%s TLDR please
-use: https://unix.stackexchange.com/search?q=%s Unix & Linux Stack Exchange
-whois: http://whois.domaintools.com/%s Whois
 
 # Dictionary
 dict: http://dictionary.com/browse/%s Dictionary.com
