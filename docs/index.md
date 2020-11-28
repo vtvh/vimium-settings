@@ -21,116 +21,118 @@
 | gx | chrome://extensions/shortcuts |
 
 ### Dev
-|dh| https://devhints.io/?q=%s |Devhints.io Cheatsheet |
-|dk| https://hub.docker.com/search?q=%s |Docker hub |
-|es| https://explainshell.com/explain?cmd=%s |ExplainShell.com |
-|f| https://fileinfo.com/search/%s |File Info |
-|gh| https://github.com/search?q=%s |GitHub search |
-|gist| https://gist.github.com/search?q=%s |Gist search |
-|hint| https://devhints.io/?q=%s |Devhints.io Cheatsheet |
-|isup| http://www.isup.me/%s |Check website Is Up |
-|man| https://www.mankier.com/?q=%s |Mankier |
-|npm| https://www.npmjs.com/search?q=%s |npm packages |
-|pd| https://docs.python.org/3/search.html?q=%s |Python 3 Documentation |
-|pp| https://pypi.org/search/?q=%s |PyPi Python packages |
-|rp| https://realpython.com/search?q=%s |Real Python |
-|rtd| https://readthedocs.org/search/?q=%s |Read the Docs |
-|so| https://stackoverflow.com/search?q=%s |StackOverflow |
-|ss| https://www.google.com/search?q=%s&sitesearch=ss64.com |ss64.com |
-|su| https://superuser.com/search?q=%s |SuperUser |
-|tld| https://www.iana.org/domains/root/db/%s |IANA Top-level domain record |
-|tldr| https://tldr.ostera.io/%s |TLDR please |
-|use| https://unix.stackexchange.com/search?q=%s |Unix & Linux Stack Exchange |
-|whois| http://whois.domaintools.com/%s |Whois |
+| Key | Search engine |
+| --- | --- |
+|dh| Devhints.io Cheatsheet |
+|dk| Docker hub |
+|es| ExplainShell.com |
+|f| File Info |
+|gh| GitHub search |
+|gist| Gist search |
+|hint| Devhints.io Cheatsheet |
+|isup| Check website Is Up |
+|man| Mankier |
+|npm| npm packages |
+|pd| Python 3 Documentation |
+|pp| PyPi Python packages |
+|rp| Real Python |
+|rtd| Read the Docs |
+|so| StackOverflow |
+|ss| ss64.com |
+|su| SuperUser |
+|tld| IANA Top-level domain record |
+|tldr| TLDR please |
+|use| Unix & Linux Stack Exchange |
+|whois| Whois |
 
 ### Maybe useful?
-|b| https://www.bing.com/search?setmkt=en-GB&q=%s |Bing |
-|e| https://www.ebay.com/sch/?_nkw=%s |eBay |
-|hn| https://hn.algolia.com/?q=%s |Hacker News |
-|qw| https://www.qwant.com/?q=%s&t=all |Qwant search engine |
-|trello| https://trello.com/search?q=%s |Trello |
-|wa| https://www.wolframalpha.com/input/?i=%s |Wolfram Alpha |
-|yh| https://search.yahoo.com/search?p=%s&ei=UTF-8 |Yahoo |
+|b| Bing |
+|e| eBay |
+|hn| Hacker News |
+|qw| Qwant search engine |
+|trello| Trello |
+|wa| Wolfram Alpha |
+|yh| Yahoo |
 
 ### Googles
-|cache| http://webcache.googleusercontent.com/search?q=cache:%s |Google cache |
-|cs| javascript:location='http://www.google.com/search?num=100&q=site:'%20+%20escape(location.hostname)%20+%20'%20%S'%20;%20void%200 |Current site |
-|ct| https://contacts.google.com/search/%s |Google Contacts |
-|g| https://www.google.com/search?q=%s |Google |
-|gi| https://www.google.com/search?tbm=isch&q=%s |Google Images |
-|gm| https://mail.google.com/mail/u/0/#search/%s |Gmail search |
-|gt| https://trends.google.com/trends/explore?q=%s |Google Trends |
-|map| https://www.google.com/maps?q=%s |Google Maps |
-|phrase| https://www.google.com/search?q=”%s” |Google Phrase Search |
-|store| https://chrome.google.com/webstore/search/%s |Google Chrome Web Store |
-|tr| https://translate.google.com/?source=osdd#auto|auto|%s |Google Translator |
+|cache| Google cache |
+|cs| Current site |
+|ct| Google Contacts |
+|g| Google |
+|gi| Google Images |
+|gm| Gmail search |
+|gt| Google Trends |
+|map| Google Maps |
+|phrase| Google Phrase Search |
+|store| Google Chrome Web Store |
+|tr| Google Translator |
 
 ### Time-based
-|day| https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s |Search in last 24 hours |
-|month| https://www.google.com/search?hl=en&tbo=1&tbs=qdr:m&q=%s |Search in past month |
-|week| https://www.google.com/search?hl=en&tbo=1&tbs=qdr:w&q=%s |Search in past week |
-|year| https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s |Search in past year |
+|day| Search in last 24 hours |
+|month| Search in past month |
+|week| Search in past week |
+|year| Search in past year |
 
 ### Wiki
-|aw| https://wiki.archlinux.org/index.php?search=%s |Arch Linux Wiki |
-|br| https://www.britannica.com/search?query=%s |Encyclopaedia Britannica |
-|bw| https://wiki.bash-hackers.org/doku.php?&do=search&q=%s |The Bash Hackers Wiki |
-|sw| https://satisfactory.gamepedia.com/index.php?search=%s |Satisfactory |
-|vw| https://vim.fandom.com/wiki/Special:Search?query=%s |Vim Fandom Wiki |
-|w| https://en.wikipedia.org/wiki/Special:Search?search=%s |Wikipedia |
-|wvi| https://vi.wikipedia.org/wiki/Special:Search?search=%s |Wikipedia Tiếng Việt |
+|aw| Arch Linux Wiki |
+|br| Encyclopaedia Britannica |
+|bw| The Bash Hackers Wiki |
+|sw| Satisfactory |
+|vw| Vim Fandom Wiki |
+|w| Wikipedia |
+|wvi| Wikipedia Tiếng Việt |
 
 ### Shopping
-|a| https://www.amazon.com/s?k=%s |Amazon |
-|ade| https://www.amazon.de/s?k=%s |Amazon |
-|ali| https://www.aliexpress.com/wholesale?SearchText=%s |Aliexpress |
-|hi| https://hinta.fi/haku?q=%s |Hinta.fi |
-|hip| https://hintaopas.fi/search?search=%s |Hintaopas prices search |
+|a| Amazon |
+|ade| Amazon |
+|ali| Aliexpress |
+|hi| Hinta.fi |
+|hip| Hintaopas prices search |
 
 ### Dictionary
-|dict| http://dictionary.com/browse/%s |Dictionary.com |
-|en| https://www.oxfordlearnersdictionaries.com/definition/english/%s |Oxford Dictionary |
-|fi| https://en.bab.la/dictionary/finnish-english/%s |Bab.la Fi-En Dictionary |
-|hv| https://hvdic.thivien.net/hv/%s |Từ điển Hán Việt - Thivien.net |
-|mw| https://www.merriam-webster.com/dictionary/%s |Merriam-Webster Dictionary |
-|prn| https://forvo.com/search/%s |Forvo.com Pronounce |
-|t| http://thesaurus.com/browse/%s |Therasus synonyms |
-|ud| https://www.urbandictionary.com/define.php?term=%s |UrbanDictionary |
-|vi|en: https://vi.bab.la/dictionary/vietnamese-english/%s |Bab.la Fi-En Dictionary |
-|vi| https://vi.wiktionary.org/w/index.php?search=%s&title=%C4%90%E1%BA%B7c_bi%E1%BB%87t%3AT%C3%ACm_ki%E1%BA%BFm&go=Xem&ns0=1 |Wiktionary tiếng Việt |
-|wt| https://en.wiktionary.org/w/index.php?search=%s&title=Special%3ASearch&go=Go&ns0=1 |Wiktionary - English |
+|dict| Dictionary.com |
+|en| Oxford Dictionary |
+|fi| Bab.la Fi-En Dictionary |
+|hv| Từ điển Hán Việt - Thivien.net |
+|mw| Merriam-Webster Dictionary |
+|prn| Forvo.com Pronounce |
+|t| Therasus synonyms |
+|ud| UrbanDictionary |
+|vi|en: Bab.la Fi-En Dictionary |
+|vi| Wiktionary tiếng Việt |
+|wt| Wiktionary - English |
 
 ### Misc
-|al| https://alternativeto.net/browse/search?q=%s |AlternativeTo |
-|apk| https://www.apkmirror.com/?&s=%s |APK mirror |
-|archive| https://web.archive.org/web/*/%s |Internet Archive |
-|c| https://insect.sh/?q=%s |Insect Sciencetifc Calculator |
-|cal| https://insect.sh/?q=%s |Insect Sciencetifc Calculator |
-|cc| https://ccsearch.creativecommons.org/?search_fields=title&search_fields=creator&search_fields=tags&search=%s |Creative Commons |
-|cl| https://chocolatey.org/packages?q=%s |Chocolatey list packages |
-|d| https://duckduckgo.com/?q=%s |DuckDuckGo |
-|epub| https://www.epub.vn/search#%s |Epub.vn ebooks |
-|fb| https://www.facebook.com/search/top/?q=%s |Facebook |
-|fd| https://www.finder.fi/search?what=%s |Finder.fi |
-|fg| http://fitgirl-repacks.site/?s=%s |FitGirl repacks |
-|flickr| http://www.flickr.com/search/?q=%s&l=4 |Flickr Creative Commons Search |
-|ge| https://genius.com/search?q=%s |Genius lyrics |
-|gr| https://www.goodreads.com/search?q=%s |Goodreads |
-|gsm| https://www.gsmarena.com/res.php3?sSearch=%s |GSM Arena |
-|hs| https://thuvienhoasen.org/search?k=%s |Thu Vien Hoa Sen |
-|hsgg| https://www.google.com/search?num=50&q=site:thuvienhoasen.org+%s |Thu Vien Hoa Sen (GG) |
-|htg| https://www.howtogeek.com/search/?q=%s |How-to Geek |
-|ico| https://www.iconfinder.com/search/?q=%s&price=free |Icon Finder |
-|imdb| https://www.imdb.com/find?s=all&q=%s |IMDB |
-|lib| https://libgen.is/search.php?req=%s&lg_topic=libgen&open=0&view=simple&res=25&phrase=1&column=def |LibGen Ebooks |
-|m| https://medium.com/search?q=%s |Medium |
-|mobi| https://forum.mobilism.org/search.php?keywords=%s&sr=topics&sf=titleonly |Mobilism Apps & Books |
-|r| https://www.reddit.com/search?q=%s |Reddit |
-|rac| https://www.reddit.com/r/assassinscreed/search/?q=%s&restrict_sr=1 |Assassin Creed Reddit search |
-|raco| https://www.reddit.com/r/AssassinsCreedOdyssey/search/?q=%s&restrict_sr=1 |Assassin Creed Odyssey Reddit search |
-|sdb| https://steamdb.info/search/?a=app&q=%s |SteamDB |
-|sv| https://sachvui.com/search/?tu-khoa=%s |Sach Vui |
-|tf| http://www.taifile.net/search.php?q=%s |Taifile.net |
-|tor| https://search.torrents.io/%s |Torrent Search |
-|tw| https://twitter.com/search?q=%s&vertical=default&f=tweets |Twitter |
-|y| https://www.youtube.com/results?search_query=%s |YouTube |
+|al| AlternativeTo |
+|apk| APK mirror |
+|archive| Internet Archive |
+|c| Insect Sciencetifc Calculator |
+|cal| Insect Sciencetifc Calculator |
+|cc| Creative Commons |
+|cl| Chocolatey list packages |
+|d| DuckDuckGo |
+|epub| Epub.vn ebooks |
+|fb| Facebook |
+|fd| Finder.fi |
+|fg| FitGirl repacks |
+|flickr| Flickr Creative Commons Search |
+|ge| Genius lyrics |
+|gr| Goodreads |
+|gsm| GSM Arena |
+|hs| Thu Vien Hoa Sen |
+|hsgg| Thu Vien Hoa Sen (GG) |
+|htg| How-to Geek |
+|ico| Icon Finder |
+|imdb| IMDB |
+|lib| LibGen Ebooks |
+|m| Medium |
+|mobi| Mobilism Apps & Books |
+|r| Reddit |
+|rac| Assassin Creed Reddit search |
+|raco| Assassin Creed Odyssey Reddit search |
+|sdb| SteamDB |
+|sv| Sach Vui |
+|tf| Taifile.net |
+|tor| Torrent Search |
+|tw| Twitter |
+|y| YouTube |
