@@ -48,6 +48,8 @@
 
 ### Maybe useful?
 
+| Key | Search engine |
+| --- | --- |
 |b| Bing |
 |e| eBay |
 |hn| Hacker News |
@@ -57,6 +59,9 @@
 |yh| Yahoo |
 
 ### Googles
+
+| Key | Search engine |
+| --- | --- |
 |cache| Google cache |
 |cs| Current site |
 |ct| Google Contacts |
@@ -70,12 +75,18 @@
 |tr| Google Translator |
 
 ### Time-based
+
+| Key | Search engine |
+| --- | --- |
 |day| Search in last 24 hours |
 |month| Search in past month |
 |week| Search in past week |
 |year| Search in past year |
 
 ### Wiki
+
+| Key | Search engine |
+| --- | --- |
 |aw| Arch Linux Wiki |
 |br| Encyclopaedia Britannica |
 |bw| The Bash Hackers Wiki |
@@ -85,6 +96,9 @@
 |wvi| Wikipedia Tiếng Việt |
 
 ### Shopping
+
+| Key | Search engine |
+| --- | --- |
 |a| Amazon |
 |ade| Amazon |
 |ali| Aliexpress |
@@ -92,6 +106,9 @@
 |hip| Hintaopas prices search |
 
 ### Dictionary
+
+| Key | Search engine |
+| --- | --- |
 |dict| Dictionary.com |
 |en| Oxford Dictionary |
 |fi| Bab.la Fi-En Dictionary |
@@ -105,6 +122,9 @@
 |wt| Wiktionary - English |
 
 ### Misc
+
+| Key | Search engine |
+| --- | --- |
 |al| AlternativeTo |
 |apk| APK mirror |
 |archive| Internet Archive |
