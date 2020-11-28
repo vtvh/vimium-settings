@@ -21,6 +21,7 @@
 | gx | chrome://extensions/shortcuts |
 
 ### Dev
+
 | Key | Search engine |
 | --- | --- |
 |dh| Devhints.io Cheatsheet |
@@ -46,6 +47,7 @@
 |whois| Whois |
 
 ### Maybe useful?
+
 |b| Bing |
 |e| eBay |
 |hn| Hacker News |
