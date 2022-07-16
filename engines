@@ -44,7 +44,8 @@ store: https://chrome.google.com/webstore/search/%s Google Chrome Web Store
 tr: https://translate.google.com/?source=osdd#auto|auto|%s Google Translator
 
 # Finance
-i: https://www.investing.com/search/?q=appl Investing.com
+i: https://www.investing.com/search/?q=%s Investing.com
+mst: https://tracuumasothue.com/tim-kiem?q=%s Tra cuu ma so thue
 
 # Time-based
 day: https://www.google.com/search?hl=en&tbo=1&tbs=qdr:d&q=%s Search in last 24 hours
