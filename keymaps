@@ -53,9 +53,15 @@ map gH createTab https://gist.github.com/vtvh/starred
 map gy createTab https://www.youtube.com
 map gY createTab https://www.youtube.com/playlist?list=WL
 map gk createTab https://explainshell.com/
-map gK createTab https://www.mankier.com/explain # mean ge because K swapped to E
+
+# mean ge because K swapped to E
+map gK createTab https://www.mankier.com/explain
+
 map gw createTab https://web.whatsapp.com/
-map gn createTab https://keep.google.com/u/0/ # mean gk
+
+# mean gk
+map gn createTab https://keep.google.com/u/0/
+
 map gb createTab https://devhints.io/bash#conditionals
 map gt createTab https://www.thivien.net/topics.php
 map gT createTab https://www.thivien.net/google_search.php
@@ -69,7 +75,8 @@ map s Vomnibar.activateInNewTab keyword=g
 # Lower-case letters are taken to be global marks and vice versa
 map m Marks.activateCreateMode swap
 map ` Marks.activateGotoMode swap
-map ' Marks.activateGotoMode swap # Follow vim tradition
+# Follow vim tradition
+map ' Marks.activateGotoMode swap
 
 # Navigate (key has been remapped so neio becomes hjkl)
 map j scrollPageDown
@@ -134,4 +141,5 @@ map . goNext
 map q visitPreviousTab
 map t Vomnibar.activateTabSelection
 map w moveTabToNewWindow
+
 
